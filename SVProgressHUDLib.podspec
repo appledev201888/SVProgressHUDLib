@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVProgressHUDLib"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A short description of SVProgressHUDLib."
 
   # This description is used to generate tags and improve search results.
@@ -137,7 +137,6 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
-s.xcconfig = {'BITCODE_GENERATION_MODE' => 'bitcode'}
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
